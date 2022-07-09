@@ -1,0 +1,93 @@
+.home {
+  background-image: url("https://i.pinimg.com/564x/bb/db/80/bbdb80c6ff5d005873da94f8375fbfe8.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loaderHome {
+  width: 90vw;
+  height: 82.2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.loaderHome p {
+  width: 11vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 26, 26);
+  background-color: rgb(255, 255, 56);
+  position: absolute;
+  top: 28%;
+  left: 41%;
+}
+
+.loaderHome img {
+  width: 20vw;
+  height: 40vh;
+}
+.filters {
+  gap: 7rem;
+  background-color: rgb(0, 0, 0);
+  height: 2.5vw;
+  opacity: 0.9;
+}
+
+.filter1 {
+  font-size: 13px;
+  height: 28px;
+  width: 135px;
+  background-color: rgb(255, 234, 206);
+  color: rgb(255, 35, 35);
+  position: absolute;
+  top: 9.2%;
+  left: 8%;
+  cursor: pointer;
+  border-radius: 0.6vw;
+}
+.filter2 {
+  font-size: 13px;
+  height: 28px;
+  width: 135px;
+  background-color: rgb(255, 234, 206);
+  border-radius: 0.6vw;
+  color: rgb(255, 35, 35);
+  position: absolute;
+  top: 9.2%;
+  left: 52%;
+  cursor: pointer;
+}
+.filter3 {
+  font-size: 13px;
+  height: 28px;
+  width: 135px;
+  background-color: rgb(255, 234, 206);
+  color: rgb(255, 35, 35);
+  border-radius: 0.4vw;
+
+  position: absolute;
+  top: 9.2%;
+  left: 30%;
+  cursor: pointer;
+}
+
+.filter4 {
+  font-size: 13px;
+  height: 28px;
+  width: 135px;
+  background-color: rgb(255, 234, 206);
+  color: rgb(255, 35, 35);
+  border-radius: 0.4vw;
+
+  position: absolute;
+  top: 9.2%;
+  left: 75%;
+  cursor: pointer;
+}

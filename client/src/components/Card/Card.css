@@ -1,0 +1,73 @@
+
+.card {
+    background-color: rgba(255, 28, 28, 0.911);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5%;
+    text-decoration: none;
+    width: 23vw;
+    height: 30vw;
+    margin-bottom: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.6s;
+    box-shadow: 5px 2px 15px 0px rgba(255, 140, 69, 0.911);
+  }
+  
+  .card_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, min(25vw));
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 8vw;
+  }
+
+  .card_info h3 {
+    font-size: 25px;
+    font-family: 'Charm', cursive;
+    color: rgb(255, 234, 47);
+  }
+
+  .card_info2 h4 {
+    font-size: 13px;
+    font-family: 'Charm', cursive;
+    color: rgb(255, 234, 47);;
+  }
+
+  .card_img {
+    height: 16vw;
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card_button {
+    background-color: rgb(255, 234, 47);
+    border-radius: 0.4vw;
+    width: 19vw;
+    height: 2vw;
+    color: rgba(255, 28, 28, 0.911);
+    transition: all 0.4s;
+    cursor: pointer;
+    
+  }
+  
+  .card:hover {
+    opacity: 0.9;
+    background-color: rgba(255, 140, 69, 0.911);
+    width: 23vw;
+    height: 30.5vw;
+  }

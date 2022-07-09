@@ -1,0 +1,45 @@
+.landing {
+      background: #fafafa
+      url("https://i2.wp.com/www.cpokemon.com/wp-content/uploads/2017/12/PokemonSuMo13.png?ssl=1&resize=300%2C170&zoom=3");
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: row;
+      gap: 5rem;
+      justify-content: center;
+      align-items: center;
+    }
+    .landing_h1 {
+      height: 7vw;
+      text-align: center;
+      font-size: 1.5vw;
+      color: #ca473b;
+      position: absolute;
+      top:  0%;
+      left: 8%;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .landing_button {
+      padding: 2px;
+      margin: 2px;
+      width: 150px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-size: 19px;
+      border-radius: 5px;
+      border: 2px solid rgba(255, 28, 28, 0.911);
+      background-color: rgb(255, 255, 255);
+      color: rgba(255, 26, 26, 0.911);
+      text-decoration: none;
+      cursor: pointer;
+      transition-duration: 0.4s;
+      position: absolute;
+      top: 80%;
+      left: 80%;
+    }
+    
+    .landing_button:hover {
+      background-color: rgba(255, 28, 28, 0.911);;
+      color: rgba(255, 255, 255, 0.911);
+    }
